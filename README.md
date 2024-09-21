@@ -38,7 +38,7 @@ warnings.filterwarnings("ignore")
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interestested in using syintethic data inspired from a Kaggle dataset to accomplish the following:
+For this project, I was interestested in using data gathered from Kaggle (https://www.kaggle.com/datasets/naveenkumar20bps1137/predict-students-dropout-and-academic-success?select=dataset.csv) to accomplish the following:
 1. What Family Factors Contribute to Student Dropout Rates?
 2. Do Extracurricular Activities Reduce the Likelihood of Dropping Out?
 3. Does Access to Educational Support Systems Help Prevent Dropout?
