@@ -33,7 +33,7 @@ For this project, I was interestested in using syintethic data inspired from a K
 
 ## File Descriptions <a name="files"></a>
 
-There are 1 jupyter notebook available here to showcase work related to the above questions. It is exploratory in searching through the data pertaining to the questions.  Markdown cells were used to assist in walking through the thought process for individual steps.  
+There are 1 jupyter notebook available here to showcase work related to the above questions. It is exploratory in searching through the data pertaining to the questions.  Markdown cells were used to assist in walking through the thought process for individual steps.
 Here’s a table explaining each of the fields from the dataset (student_data.csv)
 
 | Feature                                   | Description                                                                 |
