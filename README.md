@@ -14,11 +14,25 @@ The code should run with no issues using Python versions 3.*. Below are the libr
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import (
+    classification_report,
+    confusion_matrix,
+    precision_recall_curve,
+    auc,
+)
+from xgboost import XGBClassifier
+from imblearn.over_sampling import SMOTE
+from sklearn.model_selection import train_test_split
+import xgboost as xgb
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
-import AllTogether as t
 import seaborn as sns
+
+pd.set_option('display.max_columns', None)
+import warnings
+warnings.filterwarnings("ignore")
 %matplotlib inline
 ```
 
