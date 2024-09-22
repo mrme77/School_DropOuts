@@ -50,7 +50,7 @@ For this project, I was interestested in using data gathered from Kaggle (https:
 1. Does marital status contribute to student drop out rates?
 2. Are international students less or more likely of dropping-out?
 3. Does parental education prevent drop-out?
-4. How does gender relate to student drop-outt?
+4. How does gender relate to student drop-out?
 5. Can we fit a ML algorithm to predict students drop-out?
 
 This project leverages the CRISP-DM framework which stands for Cross-Industry Standard Process for Data Mining. It is an industry-proven way to guide data mining efforts and it includes six steps:
