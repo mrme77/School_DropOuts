@@ -93,7 +93,6 @@ Here’s a table explaining each of the fields from the dataset (dataset.csv)
  |
 
 This table should help understanding each field's role and what kind of data it contains.
-T
 
 ## Results<a name="results"></a>
 
