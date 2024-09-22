@@ -53,7 +53,7 @@ For this project, I was interestested in using data gathered from Kaggle (https:
 4. How does gender relate to student drop-outt?
 5. Can we fit a ML algorithm to predict students drop-out?
 
-This project leverages the CRISP-DM framework which stands for Cross-Industry Standard Process for Data Mining, is an industry-proven way to guide your data mining efforts. As a methodology, it includes six steps:
+This project leverages the CRISP-DM framework which stands for Cross-Industry Standard Process for Data Mining. It is an industry-proven way to guide data mining efforts and it includes six steps:
 1. Business understanding
 2. Data understanding
 3. Data preparation
