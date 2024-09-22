@@ -24,6 +24,7 @@ from sklearn.metrics import (
     confusion_matrix,
     precision_recall_curve,
     auc,
+    accuracy_score
 )
 from xgboost import XGBClassifier
 from imblearn.over_sampling import SMOTE
@@ -46,10 +47,11 @@ warnings.filterwarnings("ignore")
 
 For this project, I was interestested in using data gathered from Kaggle (https://www.kaggle.com/datasets/naveenkumar20bps1137/predict-students-dropout-and-academic-success?select=dataset.csv) to answer the following questions:
 
-1. Does marital status contribute to student Dropout Rates?
-2. Are international students less or more likely of Dropping Out?
-3. Does parental education prevent Dropout?
-4. How does gender relate to Student Dropout?
+1. Does marital status contribute to student drop out rates?
+2. Are international students less or more likely of dropping-out?
+3. Does parental education prevent drop-out?
+4. How does gender relate to student drop-outt?
+5. Can we fit a ML algorithm to predict students drop-out?
 
 ## File Descriptions <a name="files"></a>
 
@@ -92,5 +94,5 @@ The main findings of the code can be found at the post available [here](https://
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to Kaggle for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [Kaggle](https://www.kaggle.com/datasets/naveenkumar20bps1137/predict-students-dropout-and-academic-success?select=dataset.csv).  Otherwise, feel free to use the code here as you would like! 
+Greatest shot-out to Gernerative AI such as ChatGPT and Gemini to help with some doc strings and documentation. Full credit to Kaggle for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [Kaggle](https://www.kaggle.com/datasets/naveenkumar20bps1137/predict-students-dropout-and-academic-success?select=dataset.csv).  Otherwise, feel free to use the code here as you would like! 
 
