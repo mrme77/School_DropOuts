@@ -53,6 +53,13 @@ For this project, I was interestested in using data gathered from Kaggle (https:
 4. How does gender relate to student drop-outt?
 5. Can we fit a ML algorithm to predict students drop-out?
 
+This project leverages the CRoss Industry Standard Process for Data Mining (CRISP-DM) framework which stands for Cross-Industry Standard Process for Data Mining, is an industry-proven way to guide your data mining efforts. As a methodology, it includes six steps:
+1. Business understanding
+2. Data understanding
+3. Data preparation
+4. Modeling
+5. Evaluation
+6. Deployment
 ## File Descriptions <a name="files"></a>
 
 There is 1 jupyter notebook available here to showcase work related to the above questions. It is exploratory in searching through the data pertaining to the questions.  Markdown cells were used to assist in walking through the thought process for individual steps.
