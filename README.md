@@ -90,7 +90,7 @@ Here’s a table explaining each of the fields from the dataset (dataset.csv)
 | **Curricular Units 1st Sem (Enrolled)**  | The number of curricular units enrolled by the student in the first semester. (Numerical) |
 | **Curricular Units 1st Sem (Evaluations)**| The number of curricular units evaluated by the student in the first semester. (Numerical) |
 | **Curricular Units 1st Sem (Approved)**  | The number of curricular units approved by the student in the first semester. (Numerical) |
- |
+
 
 This table should help understanding each field's role and what kind of data it contains.
 
