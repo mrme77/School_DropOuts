@@ -13,6 +13,10 @@ The code should run with no issues using Python versions 3.*. Below are the libr
 ```
 import numpy as np
 import pandas as pd
+from sklearn.linear_model import LogisticRegression
+from scipy.stats import chi2_contingency
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.compose import ColumnTransformer
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import (
@@ -32,23 +36,25 @@ import seaborn as sns
 
 pd.set_option('display.max_columns', None)
 import warnings
+
 warnings.filterwarnings("ignore")
+
 %matplotlib inline
 ```
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interestested in using data gathered from Kaggle (https://www.kaggle.com/datasets/naveenkumar20bps1137/predict-students-dropout-and-academic-success?select=dataset.csv) to accomplish the following:
-1. What Family Factors Contribute to Student Dropout Rates?
-2. Do Extracurricular Activities Reduce the Likelihood of Dropping Out?
-3. Does Access to Educational Support Systems Help Prevent Dropout?
-4. How Does Alcohol Consumption Relate to Student Dropout?
-5. What ML model can we use to predicate DropOuts?
+For this project, I was interestested in using data gathered from Kaggle (https://www.kaggle.com/datasets/naveenkumar20bps1137/predict-students-dropout-and-academic-success?select=dataset.csv) to answer the following questions:
+
+1. Does marital status contribute to student Dropout Rates?
+2. Are international students less or more likely of Dropping Out?
+3. Does parental education prevent Dropout?
+4. How does gender relate to Student Dropout?
 
 ## File Descriptions <a name="files"></a>
 
-There are 1 jupyter notebook available here to showcase work related to the above questions. It is exploratory in searching through the data pertaining to the questions.  Markdown cells were used to assist in walking through the thought process for individual steps.
-Here’s a table explaining each of the fields from the dataset (student_data.csv)
+There is 1 jupyter notebook available here to showcase work related to the above questions. It is exploratory in searching through the data pertaining to the questions.  Markdown cells were used to assist in walking through the thought process for individual steps.
+Here’s a table explaining each of the fields from the dataset (dataset.csv)
 
 | Feature                                   | Description                                                                 |
 |-------------------------------------------|-----------------------------------------------------------------------------|
@@ -77,8 +83,8 @@ Here’s a table explaining each of the fields from the dataset (student_data.cs
 | **Curricular Units 1st Sem (Approved)**  | The number of curricular units approved by the student in the first semester. (Numerical) |
  |
 
-This table should help you understand each field's role and what kind of data it contains.
-There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
+This table should help understanding each field's role and what kind of data it contains.
+T
 
 ## Results<a name="results"></a>
 
@@ -86,5 +92,5 @@ The main findings of the code can be found at the post available [here](https://
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to Stack Overflow for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/stackoverflow/so-survey-2017/data).  Otherwise, feel free to use the code here as you would like! 
+Must give credit to Kaggle for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [Kaggle](https://www.kaggle.com/datasets/naveenkumar20bps1137/predict-students-dropout-and-academic-success?select=dataset.csv).  Otherwise, feel free to use the code here as you would like! 
 
