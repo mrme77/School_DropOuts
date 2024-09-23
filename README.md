@@ -47,11 +47,10 @@ warnings.filterwarnings("ignore")
 
 For this project, I was interestested in using data gathered from Kaggle (https://www.kaggle.com/datasets/naveenkumar20bps1137/predict-students-dropout-and-academic-success?select=dataset.csv) to answer the following questions:
 
-1. Does marital status contribute to student drop out rates?
-2. Are international students less or more likely of dropping-out?
-3. Does parental education prevent drop-out?
-4. How does gender relate to student drop-out?
-5. Can we fit a ML algorithm to predict students drop-out?
+1. Does marital status contribute to student dropout counts?
+2. Does parental qualification prevent dropouts?
+3. How does gender relate to dropouts?
+4. Can we fit a ML algorithm to predict students dropouts?
 
 This project leverages the CRISP-DM framework which stands for Cross-Industry Standard Process for Data Mining. It is an industry-proven way to guide data mining efforts and it includes six steps:
 1. Business understanding
