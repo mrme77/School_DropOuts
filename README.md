@@ -95,7 +95,7 @@ This table should help understanding each field's role and what kind of data it 
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
+The main findings of the code can be found at the post available [here](https://medium.com/@psalomone33/could-you-be-next-what-leads-to-school-dropouts-3f8e7bc5c598).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
